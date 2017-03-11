@@ -7,7 +7,7 @@ for i in range(0,1):
     r = requests.get(url)
     
     html = r.content
-    #print html
+    print html
 
     soup = BeautifulSoup(html, "html.parser")
 
